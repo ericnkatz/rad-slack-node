@@ -1,5 +1,5 @@
 {
-  "name": "rad-slack-js",
+  "name": "rad-slack-node",
   "version": "0.0.1",
   "description": "javascript version of RAD facebook group integration",
   "main": "index.js",
