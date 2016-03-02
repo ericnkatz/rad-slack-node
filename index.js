@@ -45,8 +45,8 @@ function sendToSlack(status) {
 				},
 				body: formatSlackUpdate(status)
 			})
-		    .then(res => console.log(status.permalink + ' was sent to Slack.'))
-		    .then(() => db('posts').push(status))
+			.then(() => console.log(status.permalink + ' was sent to Slack.'))
+			.then(() => db('posts').push(status))
 	}
 	return status
 }
