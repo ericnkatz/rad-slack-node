@@ -1,0 +1,17 @@
+{
+  "name": "rad-slack-js",
+  "version": "0.0.1",
+  "description": "javascript version of RAD facebook group integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "baconjs": "^0.7.83",
+    "lowdb": "^0.12.5",
+    "node-fetch": "^1.3.3"
+  }
+}
